@@ -1,4 +1,4 @@
-# Nuxt Minimal Starter
+# Nuxt Auth Utils Example Project
 
 This is a test project for exploring and implementing authentication using [nuxt-auth-utils](https://github.com/atinux/nuxt-auth-utils).
 

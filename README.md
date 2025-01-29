@@ -4,6 +4,8 @@ This is a test project for exploring and implementing authentication using [nuxt
 
 Project inspired by the tutorial: [Authentication in Nuxt 3 with nuxt-auth-utils](https://www.youtube.com/watch?v=jEfTI1N9Mm8)
 
+> ⚠️ **Security Warning**: This project uses 'admin' as the password for demonstration purposes only. This is extremely unsafe and should NEVER be used in a production environment. Always use strong, unique passwords and proper security measures in real applications.
+
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup

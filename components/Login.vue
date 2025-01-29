@@ -18,7 +18,7 @@ async function login() {
 </script>
 
 <template>
-  <div class="flex min-h-screen items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+  <div class=" items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
     <div class="w-full max-w-md space-y-8">
       <div v-if="loggedIn" class="text-center">
         <h1 class="mb-6 text-3xl font-bold text-gray-900">Welcome Admin!</h1>

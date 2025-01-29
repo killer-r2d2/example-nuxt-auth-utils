@@ -1,8 +1,9 @@
 export default defineNuxtRouteMiddleware((to, from) => {
-  console.log(to, from)
+  const { loggedIn } = useUserSession()
+
   if (to.path === '/about') {
-    const { loggedIn } = useUserSession()
-    if (!loggedIn) {
+    if (!loggedIn.value) {
+      alert('Protected route. Login first')
       return navigateTo('/')
     }
   }

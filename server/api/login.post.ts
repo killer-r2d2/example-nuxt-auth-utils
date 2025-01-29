@@ -9,6 +9,7 @@ export default defineEventHandler(async (event) => {
     })
     return {
       success: true,
+      redirectUrl: '/about'
     }
   }
   throw createError({

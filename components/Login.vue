@@ -1,14 +1,19 @@
 <script setup>
 const { loggedIn, user, session, fetch: fetchUserSession, clear } = useUserSession()
 const password = ref('')
+const router = useRouter()
+
 async function login() {
-  await $fetch('/api/login', {
+  const response = await $fetch('/api/login', {
     method: 'POST',
     body: {
       password: password.value,
     },
   })
   await fetchUserSession()
+  if (response.redirectUrl) {
+    router.push(response.redirectUrl)
+  }
 }
 </script>
 

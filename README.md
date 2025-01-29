@@ -1,5 +1,9 @@
 # Nuxt Minimal Starter
 
+This is a test project for exploring and implementing authentication using [nuxt-auth-utils](https://github.com/atinux/nuxt-auth-utils).
+
+Project inspired by the tutorial: [Authentication in Nuxt 3 with nuxt-auth-utils](https://www.youtube.com/watch?v=jEfTI1N9Mm8)
+
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
